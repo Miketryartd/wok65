@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Pacifico&family=Pixelify+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,500;1,600&family=Quicksand:wght@700&family=Roboto+Condensed:wght@600&family=Roboto:ital,wght@0,100;0,300;0,700;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@800&family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    
+}
+body{
+    background-color: rgb(31, 29, 29);
+}
+
+
+    
+
+form input{
+    transition: 0.4s ease;
+    
+}
+form input:hover{
+    transition: 0.4s ease;
+    background-color: rgb(170, 170, 170);
+}
+form #name{
+    position: relative;
+    top: 180px;
+    width: 40%;
+    left: 580px;
+    height: 50px;
+    border-radius: 7px;
+    border: 4px solid rgb(77, 37, 37);
+}
+form #email{
+    position: relative;
+    top:275px;
+    width: 40%;
+    left: -190px;
+    height: 50px;
+    border-radius: 7px;
+    border: 4px solid rgb(77, 37, 37);
+}
+form #subject{
+    position: absolute;
+    top:395px;
+    width: 40%;
+    left: 580px;
+    height: 50px;
+    border-radius: 7px;
+    border: 4px solid rgb(77, 37, 37);
+}
+textarea{
+    position: absolute;
+    top:500px;
+    width: 40%;
+    left: 580px;
+    height:370px;
+    border-radius: 7px;
+       border: 4px solid rgb(77, 37, 37);
+}
+#btn{
+    position: absolute;
+    top: 900px;
+    left: 580px;
+    height: 40px;
+    border: 4px solid rgb(77, 37, 37);
+    cursor: pointer;
+    width: 7%;
+    border-radius: 7px;
+    transition:  0.2s ease;
+}
+#btn:hover{
+    transition: 0.2s ease;
+    background-color: rgb(83, 82, 82);
+    color: white;
+}
+.nv{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nv ul li{
+display: inline-block;
+padding: 2px 30px;
+}
+.nv ul li a{
+    transition: 0.2s ease;
+    color: white;
+}
+.nv ul li a:hover{
+    transition: 0.2s ease;
+    text-decoration: underline;
+}
+@media screen and (min-width: 320px) and (max-width: 349px) {
+    form #name{
+        left: 100px;
+    }
+    .nv ul li{
+        display: inline;
+        padding: 0px 10px;
+    }
+    form #email{
+        left: -33px;
+    }
+    form #subject{
+        left: 100px;
+    }
+    form textarea{
+        left: 100px;
+    }
+    #btn{
+        left: 100px;
+        width: 11%;
+    }
+}
+@media screen and (min-width: 350px) and (max-width:374px){
+form #name{
+    left:100px;
+}
+.nv ul li{
+    display: inline;
+    padding: 0px 20px;
+}
+form #email{
+    left: -50px;
+}
+form #subject{
+    left: 100px;
+}
+form textarea{
+    left: 100px;
+}
+#btn{
+    left: 100px;
+    width: 15%;
+}
+}
+
+
+@media screen and (min-width: 375px) and (max-width:391px){
+    .nv ul li{
+        display: inline;
+        padding: 0px 25px;
+    }
+    form  #name{
+        left:120px;
+    }
+    form #email{
+        left: -35px;
+    }
+    form #subject{
+        left: 120px;
+    }
+    form textarea{
+        left: 120px;
+    }
+    #btn{
+        left: 120px;
+        width: 20%;
+    }
+}
+@media screen and (min-width: 392px) and (max-width: 399px){
+    form #name{
+        left: 120px;
+    }
+    form #email{
+        left: -40px;
+    }
+    form #subject{
+        left: 120px;
+    }
+    form textarea{
+        left: 120px;
+    }
+    #btn{
+        left: 120px;
+        width: 20%;
+    }
+}
+@media screen and (min-width:400px) and (max-width: 425px) {
+    form #name{
+        left: 120px;
+    }
+    form #email{
+        left: -47px;
+    }
+    form #subject{
+        left: 120px;
+    }
+    form textarea{
+        left: 120px;
+    }
+    #btn{
+        left: 120px;
+        width: 20%;
+    }
+    
+}
+
+@media screen and (min-width: 430px) and (max-width: 443px){
+    body {
+     max-height: 500px;
+    }
+    form{
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+     form #name{
+        top:70px;
+        width: 100%;
+        left:110px;
+        
+    }
+    form #email{
+        top: 150px;
+        width: 100%;
+        left: -105px;
+    }
+    form #subject{
+        top: 250px;
+        width: 50%;
+        left: 110px;
+    }
+    form textarea{
+        top: 350px;
+        width: 100%;
+        left: 0px;
+    }
+    #btn{
+        top:  750px;
+        left: 110px;
+        width: 50%;
+    }
+  }
+  @media screen and (min-width:444px) and (max-width: 480px) {
+    form #name{
+        left: 130px;
+
+    }
+    form #email{
+        left: -52px;
+    }
+    form #subject{
+        left: 130px;
+    }
+    form textarea{
+        left: 130px;
+    }
+    #btn{
+        left: 130px;
+        width: 11%;
+    }
+    
+  }
+
+@media screen and (min-width: 510px) and (max-width: 520px){
+    form #name{
+        left: 150px;
+        
+    }
+    form #email{
+        left:-59px;
+    }
+    form #subject{
+        left: 150px;
+    }
+    form textarea{
+        left: 150px;
+    }
+    #btn{
+        left: 150px;
+    }
+}
+@media screen and (min-width: 530px) and (max-width: 535px) {
+    form #name{
+        left: 150px;
+        
+    }
+    form #email{
+        left:-65px;
+    }
+    form #subject{
+        left: 150px;
+    }
+    form textarea{
+        left: 150px;
+    }
+    #btn{
+        left: 150px;
+    }
+}
+@media screen and (min-width:565px) and (max-width: 580px) {
+    form #name{
+        left: 150px;
+    }
+    form #email{
+        left:-80px;
+    }
+    form #subject{
+        left: 150px;
+    }
+    form textarea{
+        left: 150px;
+    }
+    #btn{
+        left: 150px;
+    }
+
+}
+@media screen and (min-width:700px) and (max-width: 710px) {
+    form #name{
+        left: 200px;
+    }
+    form #email{
+        left:-85px;
+    }
+    form #subject{
+        left: 200px;
+    }
+    form textarea{
+        left: 200px;
+    }
+    #btn{
+        left: 200px;
+    }
+}
+
+  @media screen and (min-width: 768px) and (max-width: 800px){
+    form #name{
+        left: 250px;
+    }
+    form #email{
+        left: -60px;
+    }
+    form #subject{
+        left:250px;
+    }
+    form #subject{
+        left:250px;
+    }
+    form textarea{
+        left: 250px;
+    }
+    #btn{
+        left: 250px;
+    }
+  }
+
+  @media screen and (min-width:820px) and (max-width:865px){
+    form #email{
+        left:-100px;
+    }
+    form #name{
+        left: 230px;
+    }
+    form #subject{
+        left: 230px;
+    }
+    form textarea{
+        left: 230px;
+    }
+    #btn{
+        left:230px;
+    }
+  }
+  @media  screen and (min-width:963px) and (max-width:965px) {
+    
+    form #name{
+        left: 280px;
+    }
+    form #email{
+        left:-110px;
+    }
+    form #subject{
+        left:280px;
+    }
+    form textarea{
+        left: 280px;
+    }
+  }
+
+@media screen and (min-width: 1024px) and (max-width: 1075px) {
+
+    form #name{
+        left:300px;
+
+    }
+    form #email{
+        left:-115px;
+    }
+    form #subject{
+        left: 300px;
+    }
+    form textarea{
+        left: 300px;
+    }
+    #btn{
+        left: 350px;
+    }
+}
+  @media screen and (min-width: 1270px) and (max-width: 1425px){
+    form #email{
+        left:-120px;
+    }
+    form #name{
+        left:391px;
+    }
+    form #subject{
+        left: 391px;
+    }
+    form textarea{
+        left: 391px;
+    }
+#btn{
+    left: 391px;
+}
+}

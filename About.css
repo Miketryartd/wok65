@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Pacifico&family=Pixelify+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,500;1,600&family=Quicksand:wght@700&family=Roboto+Condensed:wght@600&family=Roboto:ital,wght@0,100;0,300;0,700;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@800&family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color:   rgb(34, 31, 31);
+}
+.intro1{
+    background: linear-gradient(rgb(65, 62, 62), rgb(11, 11, 11));
+    width: 13%;
+    height: 500px;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    box-shadow: 0px 2px 2px rgb(255, 255, 255);
+    cursor: pointer;
+}
+.circleimg{
+    position: absolute;
+    left: 35px;
+}
+.circleimg img{
+  border-radius: 50%;
+  height: 150px;
+  box-shadow: 0px 2px 2px rgb(255, 255, 255);
+}
+.desc{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 65%;
+    color: white;
+}
+
+.intro2{
+    background: linear-gradient(rgb(65, 62, 62), rgb(11, 11, 11));
+    width: 13%;
+    height: 500px;
+    position: absolute;
+    top: 250px;
+    left: 800px;
+    box-shadow: 0px 2px 2px rgb(255, 255, 255);
+    cursor: pointer;
+}
+.circleimg1{
+    position: absolute;
+    left: 16px;
+}
+.circleimg1 img{
+  border-radius: 50%;
+  height: 150px;
+  box-shadow: 0px 2px 2px rgb(255, 255, 255);
+}
+.intro3{
+    background: linear-gradient(rgb(65, 62, 62), rgb(11, 11, 11));
+    width: 13%;
+    height: 500px;
+    position: absolute;
+    top: 250px;
+    left: 1250px;
+    box-shadow: 0px 2px 2px rgb(255, 255, 255);
+    cursor: pointer;
+}
+.circleimg2{
+    position: absolute;
+    left: 16px;
+}
+.circleimg2 img{
+  border-radius: 50%;
+  height: 150px;
+  box-shadow: 0px 2px 2px rgb(255, 255, 255);
+}
+.desc{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 65%;
+    color: rgb(174, 174, 174);
+}
+.nav{
+
+display: flex;
+justify-content: center;
+}
+.nav ul li{
+display: inline-block;
+padding: 2px 35px;
+}
+.nav ul li a{
+    color: white;
+    transition: ease;
+}
+.nav ul li a:hover{
+    transition: ease;
+    text-decoration: underline;
+}
+.socils{
+
+}
+.socils ul li{
+    display: inline;
+    list-style:none;
+}
+.socils ul li a{
+    font-size: 5rem;
+    color: red;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.socils ul li a:hover{
+    transition: 0.2s ease;
+    color: white;
+}
+
+/*intros*/
+/*intro1*/
+.intro1hid{
+    background-color: rgba(65, 65, 65, 0.079);
+    width:13%;
+    height: 200px;
+    position:fixed;
+    left: 350px;
+    z-index: 1000;
+    top: 470px;
+}
+.intro1hid ul li{
+    list-style: none;
+
+}
+.intro1 .desc .desc1{
+    display: none;
+}
+.intro2 .desc .desc2{
+    display:none;
+}
+.intro2hid{
+    background-color: rgba(65, 65, 65, 0.079);
+    width:13%;
+    height: 200px;
+    position:fixed;
+    left: 800px;
+    z-index: 1000;
+    top: 470px;
+}
+
+.intro2hid ul li{
+    list-style: none;
+
+}
+#btn{
+    display: none;
+}
+@media screen and (min-width: 350px)  and (max-width:411px){
+    .nav ul li{
+        display: inline;
+        padding: 0px 20px;
+    }
+    .circleimg img{
+        height: 100px;
+    }
+    
+        
+    button{
+        
+    }
+    .circleimg1{
+    
+    }
+    .circleimg1 img{
+        height: 100px;
+      
+    }
+    .circleimg2 img{
+        height: 100px;
+    }
+
+}
+@media screen and (max-width:414px) {
+    .circleimg img{
+        height: 120px;
+    }
+    .circleimg1 img{
+        height: 120px;
+    }
+    .circleimg2 img{
+        height: 120px;
+    }
+}
+@media screen and (max-width:437px){
+    body{
+        
+    }
+    .intro1{
+
+        left: 105px;
+        width: 50%;
+        transform:scale(1.4, 1.4)
+    }
+    .intro1hid{
+        transform: scale(1.4, 1.4);
+        left: 120px;
+        display: none;
+    }
+    .intro2{
+        left: 105px;
+        width: 50%;
+        transform: scale(1.4, 1.4);
+    }
+    .intro2hid{
+        transform: scale(1.4, 1.4);
+        left: 120px;
+        display: none;
+    }
+    .hidden{
+        display: none;
+    }
+    #btn{
+        display: block;
+        border: none;
+        position: absolute;
+        top: 500px;
+        font-size: 2.5rem;
+        left: 310px;
+        z-index: 2000;
+    
+        color: white;
+        background-color: rgba(128, 128, 128, 0.064);
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+
+    .circleimg2{
+        
+    }
+    .circleimg1{
+        left: 1px;
+    }
+
+    .intro3{
+        left: 105px;
+        width: 50%;
+        transform:scale(1.4, 1.4)
+    }
+    .circleimg2{
+        left:10px;
+    }
+    .socils ul li{
+        display: inline;
+    }
+    .socils ul li a{
+        font-size:4rem;;
+    }
+    .intro1 .desc .desc1{
+        position: absolute;
+        top: 190px;
+        display: block;
+       
+        background-color: rgba(0, 0, 0, 0.082);
+    }
+    .desc1 ul li{
+        list-style: none;
+    }
+    .intro2 .desc .desc2{
+        position: absolute;
+        top: 250px;
+        background-color: rgba(0, 0, 0, 0.082);
+        display: block;
+       
+    }
+    .desc2 ul li{
+        list-style: none;
+        
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 850px){
+    .intro1{
+        width: 30%;
+        left: 1px;
+        transform: scale(0.8, 0.8);
+    }
+    .intro1hid{
+        width: 25%;
+        transform: scale(0.8, 0.8);
+        left: 20px;
+    }
+    .intro2{
+        left: 200px;
+        width: 30%;
+        transform: scale(0.8, 0.8);
+    }
+    .intro2hid{
+        transform: scale(0.8, 0.8);
+        left: 200px;
+        width: 29%;
+    }
+    .intro3{
+        transform: scale(0.6, 0.6);
+        left:380px;
+        width: 30%;
+    }
+    .circleimg1{
+        
+    }
+    .nav{
+
+    }
+    .nav ul li{
+        padding: 0px 250px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1150px) {
+    .intro1{
+        left: 100px;
+        width: 25%;
+    }
+    .intro1hid{
+        left:120px;
+        width: 22%;
+    }
+    .intro2{
+        left: 370px;
+        width: 25%;
+    }
+    .intro2hid{
+        left: 385px;
+        width: 22%;
+    }
+    .intro3{
+        left: 640px;
+        width: 25%;
+    }
+    
+}
+/*intro1-close*/
+/*intros

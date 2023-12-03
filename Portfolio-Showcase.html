@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="gallery.css">
+    <title>MikeTryArtd</title>
+    <link rel="icon" href="favicon_io/favicon.ico">
+</head>
+<body>
+    <div class="body0">
+        <div class="navbar">
+            <ul>
+                <li><h1>Portfolio</h1></li>
+                <li><button onclick="menu()" id="menu"><i class='bx bx-menu'></i></button></li>
+               
+            </ul>
+        </div>
+        <div class="navflex" id="navflex">
+            <ul>
+                <li><a href="index.html">Home<i class='bx bxs-home'></i></a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="tutorial.html">Tutorials</a></li>
+                <li><a href="traditional.html">Traditional</a></li>
+                <li><a href="tos.html">Terms of Service</a></li>
+                <li><p>Copyright © 2023 MikeComms</p></li>
+                <li><span>All Rights Reserved</span></li>
+            </ul>
+        </div>
+        <div id="Modal">
+            <span class="close" onclick="closeModal1()">&times;</span>
+            <img src="#" id="modalImage" alt="Modal Image">
+        </div>
+        <div class="gallery">
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/18.jpg')" class="gallery-link"><img src="image6/18.jpg" alt="Mystical"></a>
+                <div class="desc">
+                    <h1>Mystical</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/15.jpg')" class="gallery-link"><img src="image6/15.jpg"></a>
+                <div class="desc">
+                    <h1>Cold</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/14.jpg')" class="gallery-link"><img src="image6/14.jpg"></a>
+                <div class="desc">
+                    <h1>Gear 5 FanArt</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/9.jpg')" class="gallery-link"><img src="image6/9.jpg"></a>
+                <div class="desc">
+                    <h1>Ink of Fate</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/17.jpg')" class="gallery-link"><img src="image6/17.jpg"></a>
+                <div class="desc">
+                    <h1>The Tormented</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/12.jpg')" class="gallery-link"><img src="image6/12.jpg"></a>
+                <div class="desc">
+                    <h1>Sacrifice</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/24.jpg')" class="gallery-link"><img src="image6/24.jpg"></a>
+                <div class="desc">
+                    <h1>Op Doggo</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/32.png')" class="gallery-link"><img src="image6/32.png"></a>
+                <div class="desc">
+                    <h1>Exhaust</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/27.png')" class="gallery-link"><img src="image6/27.png"></a>
+                <div class="desc">
+                    <h1>Demon</h1>
+                </div>
+            </div>
+
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/25.jpg')" class="gallery-link"><img src="image6/25.jpg"></a>
+                <div class="desc">
+                    <h1>King</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/8.jpg')" class="gallery-link"><img src="image6/8.jpg"></a>
+                <div class="desc">
+                    <h1>Judgement</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/2.jpg')" class="gallery-link"><img src="image6/2.jpg"></a>
+                <div class="desc">
+                    <h1>Peace V2</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/30.jpg')" class="gallery-link"><img src="image6/30.jpg"></a>
+                <div class="desc">
+                    <h1>Asta FanArt</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/11.jpg')" class="gallery-link"><img src="image6/11.jpg"></a>
+                <div class="desc">
+                    <h1>Breakout</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/21.jpg')" class="gallery-link"><img src="image6/21.jpg"></a>
+                <div class="desc">
+                    <h1>Loyalty</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/7.jpg')" class="gallery-link"><img src="image6/7.jpg"></a>
+                <div class="desc">
+                    <h1>Peace</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/16.jpg')" class="gallery-link"><img src="image6/16.jpg"></a>
+                <div class="desc">
+                    <h1>Greed</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/31.png')" class="gallery-link"><img src="image6/31.png"></a>
+                <div class="desc">
+                    <h1>Spidersona V1</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/19.jpg')" class="gallery-link"><img src="image6/19.jpg"></a>
+                <div class="desc">
+                    <h1>Tavern</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/5.jpg')" class="gallery-link"><img src="image6/5.jpg"></a>
+                <div class="desc">
+                    <h1>Badass DoggoV1</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/3.jpg')" class="gallery-link"><img src="image6/3.jpg"></a>
+                <div class="desc">
+                    <h1>Phantom Assassin</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/1.jpg')" class="gallery-link"><img src="image6/1.jpg"></a>
+                <div class="desc">
+                    <h1>Peaace Vo.3</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/4.jpg')" class="gallery-link"><img src="image6/4.jpg"></a>
+                <div class="desc">
+                    <h1>Dog v1</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/20.jpg')" class="gallery-link"><img src="image6/20.jpg"></a>
+                <div class="desc">
+                    <h1>Cursed King</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/29.jpg')" class="gallery-link"><img src="image6/29.jpg"></a>
+                <div class="desc">
+                    <h1>Peace Vo.4</h1>
+                </div>
+            </div>
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/23.jpg')" class="gallery-link"><img src="image6/23.jpg"></a>
+                <div class="desc">
+                    <h1>Spidersona V2</h1>
+                </div>
+            </div>
+
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/28.jpg')" class="gallery-link"><img src="image6/28.jpg"></a>
+                <div class="desc">
+                    <h1>Domination</h1>
+                </div>
+            </div>
+
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/13.jpg')" class="gallery-link"><img src="image6/13.jpg"></a>
+                <div class="desc">
+                    <h1>Existant</h1>
+                </div>
+            </div>
+
+            <div class="gallerybox">
+                <a href="#" onclick="openModal('image6/10.jpg')" class="gallery-link"><img src="image6/10.jpg"></a>
+                <div class="desc">
+                    <h1>Tyrant of the Galaxy</h1>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+   
+    </div>
+    <script src="gallery.js"></script>
+</body>
+</html>
